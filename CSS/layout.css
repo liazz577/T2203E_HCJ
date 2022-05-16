@@ -1,0 +1,80 @@
+.section{
+    float: left;
+    width: 100%;
+}
+.container{
+    width: 1200px;
+    margin: 0 auto;
+}
+.columns-right .content{
+    float: left;
+    width: 66.67%;
+}
+.columns-left .sidebar{
+    float: right;
+    width: 33.33%;
+}
+.one-column .content{
+    float: left;
+    width: 100%;
+}
+.one-column .sidebar{
+    display: none;
+}
+.header{
+    background-color: white;
+    border-bottom: 1px solid navajowhite;
+    padding: 20px 0;
+}
+.logo{
+    float: left;
+    width: 40%;
+}
+.toplinks{
+    float: right;
+    width: 50%;
+}
+.toplinks ul{
+    float: right;
+}
+.toplinks ul li{
+    float: left;
+    list-style: none;
+    margin-left: 25px;
+}
+.logo .logo-link{
+    font-size: 28px;
+    font-weight: 500;
+}
+.logo p{
+    font-size: 15px;
+}
+.toplinks a{
+    font-weight: 500px;
+    line-height: 51px;
+    font-size: 15px;
+}
+.menu li{
+    list-style: none;
+    float: left;
+    margin-right: 25px;
+}
+.menu li.last{
+    float: right;
+    margin-right: 0;
+}
+.main{
+    margin-top: 30px;
+}
+.columns-right .content{
+    background-color: #ffff;
+    padding: 30px;
+    width: calc(66.67% - 75px);
+    margin-right: 15px;
+}
+.columns-right .sidebar{
+    background-color: antiquewhite;
+    padding: 20px;
+    width: calc(33.33% - 55px);
+    margin-left: 15px;
+}

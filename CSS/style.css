@@ -1,0 +1,33 @@
+body{
+    background-color: beige;
+    background-image: url("../Image/VtM.png");
+    background-size: cover;
+}
+
+h1{
+    color: red;
+}
+
+p{
+    color: #ff6fc3;
+    font-size: 26px;
+    line-height: 1.25;
+    text-align: justify; /* left right center */
+    text-transform: none;/* uppercase lowercase capitalize*/
+    text-decoration: none;/* line-through overline underline*/
+    text-indent: 50px;/*do lui dau doan van*/
+    font-weight: 400; /*do day cua chu 100thin 700bold 300light 900black 400=normal*/
+    font-family: "Times New Roman";/*'Roboto Flex', sans serif*/
+    /* width: 300px;*/
+    /*text-shadow: 0 0 1px red;*/
+}
+b{
+    color: wheat;
+}
+p i > b{
+    color whitesmoke;
+}
+a{
+    color: aliceblue;
+
+}

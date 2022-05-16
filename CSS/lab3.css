@@ -1,0 +1,21 @@
+img{
+    max-width: 100%;
+}
+a:hover{
+    color: #111111;
+}
+div{
+    float: left;
+    width: 700px;
+    /* height: 600px;*/
+    border: 1px solid red;
+    /
+    margin: 10px 15px 20px 25px;
+    /*
+    -top
+    -right
+    -bottom
+    -left
+     */
+    padding: 20px;
+}
